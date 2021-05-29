@@ -1,0 +1,43 @@
+.issue-page {
+  display: flex;
+  justify-content: center;
+}
+
+.issue-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.issue-container > div {
+  margin: 2px auto;
+  width: 50%;
+}
+
+.issue-container .issue-id {
+  font-weight: bold;
+}
+
+.issue-container textarea,
+.issue-container input {
+  width: 400px;
+  font-size: 17px;
+  height: 40px;
+  padding: 5px;
+}
+
+.issue-container textarea {
+  height: 60px;
+}
+
+.issue-container .issue-heading textarea {
+  font-size: 19px;
+}
+
+.issue-container button {
+  margin: auto 10px;
+}
+
+.git-container .heading {
+  margin: 30px 0 20px 120px;
+}

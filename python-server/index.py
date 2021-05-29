@@ -21,6 +21,4 @@ def cmd():
 
 if __name__ == '__main__':
     app.run(debug=True)
-# projectPath = 'D:\QAS-Hackathon-Git'
-# commandBatch = ['mkdir hello', 'mkdir hi', 'cd hello', 'mkdir hi']
-# start(projectPath, commandBatch)
+

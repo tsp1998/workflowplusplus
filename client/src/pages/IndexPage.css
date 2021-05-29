@@ -1,0 +1,17 @@
+.issues-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.issue {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+  padding: 15px 20px;
+  color: #111;
+}
+
+.issue .issue-id {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
